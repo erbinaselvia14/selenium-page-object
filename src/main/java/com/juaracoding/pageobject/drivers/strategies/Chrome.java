@@ -13,5 +13,5 @@ public class Chrome implements DriverStrategy {
 		options.addArguments("--no-sanbox--");
 		
 		return new ChromeDriver(options);
-
+	}
 }
